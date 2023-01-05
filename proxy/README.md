@@ -3,8 +3,9 @@
 ## Quick start
 
 - Setup project
-  - `PROJECT=my-server`
-  - `git clone https://github.com/lakhansamani/authorizer-failure-login-attempt-track-example $PROJECT && cd $PROJECT && rm -rf .git && cp .env.example .env`
+  - `git clone https://github.com/lakhansamani/authorizer-failure-login-attempt-track-example`
+- Change dir
+  - `cd authorizer-failure-login-attempt-track-example/proxy`
 - Update env variables in the `.env` file:
   - Set the REDIS URL
   - Set the AuthorizerURL
